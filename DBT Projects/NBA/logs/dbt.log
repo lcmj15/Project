@@ -1,0 +1,44 @@
+[0m15:17:59.102981 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002756EA99FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002756CAA6490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002756F7596D0>]}
+
+
+============================== 15:17:59.110729 | c15235c7-c43e-452f-8831-64b6f1bed408 ==============================
+[0m15:17:59.110729 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:17:59.111923 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Marçal\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:18:05.292818 [debug] [MainThread]: Starter project path: C:\Users\Marçal\OneDrive\Documentos\Projects\NBA\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:18:05.340168 [info ] [MainThread]: 
+Your new dbt project "dbt_nba" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:18:05.342228 [info ] [MainThread]: Setting up your profile.
+[0m15:21:54.106354 [info ] [MainThread]: Profile dbt_nba written to C:\Users\Marçal\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:21:54.110290 [debug] [MainThread]: Command `dbt init` succeeded at 15:21:54.109761 after 235.50 seconds
+[0m15:21:54.111483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000275716D7360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002756FC83770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027571702030>]}
+[0m15:21:54.112670 [debug] [MainThread]: Flushing usage events
+[0m15:21:54.877831 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:34:53.088866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019661B29FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001965FB06490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000196627D96D0>]}
+
+
+============================== 15:34:53.094631 | b4d9c08e-13e8-4f8d-8bdf-f911e052d73f ==============================
+[0m15:34:53.094631 [info ] [MainThread]: Running with dbt=1.9.4
+[0m15:34:53.095631 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Marçal\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt seed', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:34:53.096182 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Marçal\OneDrive\Documentos\Projects\NBA\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:34:53.098213 [debug] [MainThread]: Command `dbt seed` failed at 15:34:53.098062 after 0.21 seconds
+[0m15:34:53.098750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019662B92FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019662B07650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019662AE39B0>]}
+[0m15:34:53.099223 [debug] [MainThread]: Flushing usage events
+[0m15:34:53.961141 [debug] [MainThread]: An error was encountered while trying to flush usage events

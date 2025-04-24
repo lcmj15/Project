@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+  - name: nba_source
+    database: dbt_nba
+    schema: public
+    tables:
+      - name: games
+      - name: nba_seasons
+      - name: team_season_conference
+      - name: teams
